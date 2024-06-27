@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamagotchi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="tamagotchi-container">
+        <h1>Tamagotchi</h1>
+        <div class="status">
+            <p>Hambre: <span id="hambre">5</span></p>
+            <p>Energía: <span id="energia">5</span></p>
+            <p>Felicidad: <span id="felicidad">5</span></p>
+        </div>
+        <div class="actions">
+            <button onclick="alimentar()">Alimentar</button>
+            <button onclick="dormir()">Dormir</button>
+            <button onclick="jugar()">Jugar</button>
+        </div>
+        <p id="mensaje"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
